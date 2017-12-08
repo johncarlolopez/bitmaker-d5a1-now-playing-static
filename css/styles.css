@@ -255,4 +255,34 @@ figure {
     background-color: black;
     color:white;
   }
+  body {
+    padding-bottom: 0;
+  }
+}
+@media (min-width:992px) {
+  .movie {
+    width: 33.33%;
+    float:left;
+  }
+  .movie:first-child{
+      width: 90vw;
+  }
+  .movie:nth-child(n + 2) .movie-overview {
+    display:none;
+  }
+  .movie:nth-child(n + 2) .movie-poster {
+    display:inline-block;
+  }
+  .movie:nth-child(n + 2) .movie-backdrop {
+    display:none;
+  }
+  /* empty spaces
+  .movie:nth-child(15) .movie-image {
+    background-color: grey;
+  }
+
+  main {
+    background-color: black;
+    overflow: hidden;
+  }*/
 }
