@@ -215,12 +215,44 @@ figure {
     width: 10vw;
     display: inline-block;
   }
-  main {
+  main,
+  footer {
     margin-left: 10vw;
   }
+  footer{
+    overflow: hidden;
+    display: block;
+    background-color: black;
+    width: 90vw;
+  }
   .site-logo {
+    display: inline-block;
+    float:left;
     position: static;
     width: 10vw;
+    height: 10vw;
     /*margin-bottom: 3vw;*/
+  }
+  .movie-overview {
+    display: inline-block;
+  }
+  .footer-nav {
+    float:left;
+    display: inline-block;
+    width: 55%;
+    margin: 0;
+    background-color: black;
+    color:white;
+  }
+  .footer-nav ul {
+    padding: 0.75rem;
+  }
+  .about {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    margin: auto 0;
+    background-color: black;
+    color:white;
   }
 }
